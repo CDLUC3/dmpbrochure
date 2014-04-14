@@ -1,1 +1,1 @@
-Readme file for the DMPTool2 brochure site. Change added.
+Readme file for the DMPTool2 brochure site - now updated.
