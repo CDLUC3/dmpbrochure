@@ -1,0 +1,83 @@
+/* Custom Styles After Foundation - Large */
+
+#logo {
+  margin: 20px 0 26px -15px;
+}
+
+#contact {
+  padding: 100px 0 0 0;
+}
+
+#banner {
+  margin: 0 0 15px 0;
+  padding: 80px 150px 0 50px !important;
+  height: 355px;
+  h1 {
+    font-size: 2.8em;
+  }
+}
+
+main {
+  min-height: 425px !important;
+}
+
+aside {
+  .row {
+    padding: 0;
+    // border: $bblue;
+    background: none;
+    .columns {
+      margin: 0 0 15px 15px !important;
+      // border: $bred;
+      padding: 0;
+      &:last-child {
+        margin: 0 -15px 0 0 !important;
+      }
+    }
+  }
+}
+
+.asidebutton {
+  padding: 20px 0 !important;
+  width: 235px !important;
+  background: #dce4c3;
+}
+
+#introsections {
+  section {
+    margin: 0;
+    .buttons {
+      position: absolute;
+      bottom: 0px;
+    }
+  }
+}
+
+footer {
+  nav {
+    float: left;
+    margin: 3px 0 0 15px;
+    width: auto;
+    a {
+      padding: 0 0.5em 0 0;
+      color: #000;
+      font-size: 0.7em;
+      line-height: normal;
+      &:nth-of-type(3) {
+        border-right: 1px solid #000;
+      }
+    }
+  }
+}
+
+#socialicons {
+  float: right;
+  width: 80px; // required for IE 8
+  margin: 0;
+  a {
+    margin: 0;
+    img {
+      width: auto;
+    }
+  }
+}

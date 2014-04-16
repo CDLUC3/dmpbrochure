@@ -1,0 +1,55 @@
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
+    <script src="js/modernizr.custom.82585.js"></script>
+
+    <script>
+    Modernizr.load([
+      'js/vendor/jquery.js',
+      'js/custom.js',
+      'js/foundation.min.js',
+      'js/foundation/foundation.abide.js',
+    ]);
+
+    if (Modernizr.mq('only screen and (min-width: 32.063em)')) {
+      Modernizr.load([
+      'fancybox/source/jquery.fancybox.pack.js?v=2.1.5',
+      'fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6',
+      'js/fancybox_load.js',
+      'fancybox/source/jquery.fancybox.css'
+      ]);
+    }
+    </script>
+    
+    <!--[if IE 8]>
+
+      <script src="js/nwmatcher1.3.2b.js"></script>
+      <script src="js/selectivizr1.0.3b.js"></script>
+
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+
+      <link rel="stylesheet" href="css/foundation3.2.5.css">
+      <script src="js/respond1.4.2.js"></script>
+
+    <![endif]-->
+
+    <!--[if lt IE 8]>
+
+      <style>
+        
+        * {
+          box-sizing: border-box;
+          *behavior: url(js/boxsizing.htc);
+        }
+
+        header {
+          margin-bottom: 25px !important;
+        }
+
+      </style>
+
+    <![endif]-->

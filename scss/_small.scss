@@ -1,0 +1,235 @@
+/* Custom Styles After Foundation - Small */
+
+#mob-nav {
+  ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+    li {
+      list-style: none;
+      a {
+        display: block;
+        padding: 10px 15px;
+        border-bottom: 1px solid #526935;
+        color: #000;
+        background: #86a640 url(../img/arrow_icon.svg) 100% center no-repeat;
+        background-size: 50px 50px; // contains arrow_icon so that it can be aligned to the right
+      }
+    }
+  }
+  .mob-icon {
+    float: right;
+    width: 50px;
+    height: 40px;
+    padding: 15px 0 0 10px;
+    cursor: pointer;
+  }
+  .mob-logo {
+    display: inline;
+    width: auto;
+    height: 38px;
+    margin: 5px 0;
+    padding: 1px 10px 1px 15px;
+    background: #fff;
+  }
+}
+
+header {
+  display: none;
+}
+
+#logo {
+  display: none;
+}
+
+#contact a {
+  font-size: 0.8em;
+  color: #336600;
+  text-transform: uppercase;
+}
+
+#banner {
+  padding: 15px 15px 20px 15px !important;
+  background: #223f47 url(../img/banner.jpg) no-repeat; // #223f47 fills leftover BG around BG image in IE 8
+  background-size: cover;
+  h1 {
+    font-size: 1.5em;
+    color: #fff;
+  }
+  p {
+    color: #fff;
+  }
+}
+
+main {
+  margin-bottom: 1em;
+  h1 {
+    margin: 0.5em 0;
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.3em;
+  }
+}
+
+label {
+  font-size: 0.8em;
+}
+
+.requiredflag:before {
+  color: red;
+  content: "* ";
+}
+
+table {
+  width: 100%;
+  td:first-child {
+    border-right: 1px solid #ccc;
+  }
+}
+
+caption {
+  padding: 0.5em 0.8em;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-align: left;
+  background: #d6dcbb;
+}
+
+aside {
+  .row {
+    background: #dce4c3;
+    padding: 15px;
+    .columns {
+      margin: 15px 0 0 0;
+      &:first-child {
+        margin: 0;
+      }
+    }
+  }
+}
+
+.asidebutton {
+  padding: 0.5em 0;
+}
+
+#introsections {
+  h2 {
+    font-size: 1.1em;
+    text-transform: uppercase;
+  }
+  section {
+    margin: 20px 0;
+    h2 {
+      min-height: 2.4em;
+      padding: 0 0 0 40px;
+      font-size: 0.9em;
+      border-bottom: 2px solid #ccc;
+    }
+    &:nth-child(1) h2 {
+      background: url(../img/uc_by_the_numbers.jpg) no-repeat;
+    }
+    &:nth-child(2) h2 {
+      background: url(../img/resources_and_training.jpg) no-repeat;
+    }
+    &:nth-child(3) h2 {
+      background: url(../img/uc_contacts.jpg) no-repeat;
+      padding-left: 55px;
+    }
+    &:nth-child(4) h2 {
+      background: url(../img/recent_dmp_news.jpg) no-repeat;
+    }
+    ul {
+      margin: 0 0 1em 0;
+    }
+    li {
+      margin: 0.5em 0;
+      padding: 0 0 0 1.5em;
+      list-style: none;
+      background: url(../img/double_rt_quote2.png) no-repeat 0 0.5em;
+    }
+  }
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  padding: 15px 0 0 0;
+  nav {
+    width: 19em;
+    margin: 15px auto;
+    a {
+      padding: 0 0.8em 0 0.5em;
+      line-height: 1.8em;
+      white-space: nowrap;
+      border-right: 1px solid #000;
+      &:nth-of-type(2), &:last-of-type {
+        border-right: none;
+      }
+    } 
+  }
+}
+
+#copyright {
+  min-height: 35px; // so box doesn't collapse around logo image
+  padding: 5px 15px 0 55px;
+  background: url(../img/cdl_logo.png) no-repeat 15px 0;
+  font-size: 0.65em;
+  line-height: 1.2em;
+}
+
+#socialicons {
+  margin: 15px 0;
+  a {
+    margin: 0 5%;
+    img {
+      width: 30px; // scale back to 'auto' on _large.scss
+      height: auto;
+    }
+  }
+}
+
+.buttons {
+  float: right;
+  padding: 0.4em 1em;
+  border-radius: 1em;
+  font-size: 0.9em;
+  color: #fff;
+  border: 1px solid #4f4f50;
+  background: #666; // fallback for old browsers
+  background: linear-gradient(#6b6d6f, #4f4f50);
+  &:hover {
+    color: orange;
+    background: #757575; // fallback for old browsers
+    background: linear-gradient(#7a7b7e, #5c5c5e);
+  }
+}
+
+input[type="submit"] {
+  @extend .buttons;
+  border: 1px solid #6d893b;
+  background: #669933;
+  background: linear-gradient(#86a640, #6d893b);
+  &:hover {
+    color: #fff;
+    background: #99cc33;
+    background: linear-gradient(#92b446, #7a9842);
+  }
+}
+
+#banner {
+  .buttons {
+    border-radius: 1.1em;
+    font-size: 1em;
+    padding: 0.6em 1.2em;
+    color: orange;
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+#introsections {
+  .buttons {
+    margin-right: 2em;
+  }
+}
