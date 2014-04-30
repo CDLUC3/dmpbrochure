@@ -258,13 +258,11 @@ else
 define("EMAIL_NAME","^[-a-z0-9.]+");    // the '^' is an important security feature!
 
             /* Help: http://www.tectite.com/fmdoc/target_email.php */
-// $TARGET_EMAIL = array(EMAIL_NAME."@ucop\.edu$");
-
-// $TARGET_EMAIL = array("^uc3@ucop\.edu$");
-$TARGET_EMAIL = array("^joel\.hagedorn@ucop\.edu$");
+$TARGET_EMAIL = array("^uc3@ucop\.edu$");
+// $TARGET_EMAIL = array("^joel\.hagedorn@ucop\.edu$");
 
             /* Help: http://www.tectite.com/fmdoc/def_alert.php */
-// define("DEF_ALERT","uc3@ucop.edu");
+
 define("DEF_ALERT","joel.hagedorn@ucop.edu");
 
             /* Help: http://www.tectite.com/fmdoc/site_domain.php */
