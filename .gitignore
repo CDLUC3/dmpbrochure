@@ -1,10 +1,10 @@
 *~
 
 # OS generated files #
-.DS_Store
+*.DS_Store
 
 # Sass-cache files #
-.sass-cache
+*.sass-cache
 
 # CodeKit configuration file #
-.codekit
+config.codekit
