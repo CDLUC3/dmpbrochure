@@ -1,11 +1,23 @@
 /* Custom Styles After Foundation - Large */
 
 #logo {
-  margin: 20px 0 26px -15px;
+  margin: 20px 0 15px -15px;
 }
 
 #contact {
-  padding: 100px 0 0 0;
+  position: relative;
+  top: 88px;
+  left: 15px;
+  padding: 0;
+}
+
+header {
+  .ad {
+    display: block;
+    img {
+      margin: 15px 0 0 80px;
+    }
+  }
 }
 
 #banner {
