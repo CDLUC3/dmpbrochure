@@ -2179,7 +2179,7 @@ aside .row {
   margin: 20px 0; }
   #introsections section h2 {
     min-height: 2.4em;
-    padding: 0 0 0 40px;
+    padding: 0.2em 0 0 40px;
     font-size: 0.9em;
     border-bottom: 2px solid #ccc; }
   #introsections section:nth-child(1) h2 {
