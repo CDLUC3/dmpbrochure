@@ -2291,7 +2291,11 @@ input[type="submit"] {
     #banner h1 {
       font-size: 2.1em; }
     #banner p {
-      font-size: 1.2em; }
+      font-size: 1.45em;
+      font-weight: lighter;
+      letter-spacing: 0.05em;
+      word-spacing: 0.05em;
+      line-height: 1.3em; }
   main {
     background: #f1f3e7;
     padding: 0 0 1em 0; }
