@@ -2179,7 +2179,7 @@ aside .row {
   margin: 20px 0; }
   #introsections section h2 {
     min-height: 2.4em;
-    padding: 0 0 0 40px;
+    padding: 0.2em 0 0 40px;
     font-size: 0.9em;
     border-bottom: 2px solid #ccc; }
   #introsections section:nth-child(1) h2 {
@@ -2291,7 +2291,11 @@ input[type="submit"] {
     #banner h1 {
       font-size: 2.1em; }
     #banner p {
-      font-size: 1.2em; }
+      font-size: 1.5em;
+      font-weight: 300;
+      letter-spacing: 0.05em;
+      word-spacing: 0.05em;
+      line-height: 1.3em; }
   main {
     background: #f1f3e7;
     padding: 0 0 1em 0; }
@@ -2348,7 +2352,6 @@ input[type="submit"] {
   #contact {
     position: relative;
     top: 88px;
-    left: 15px;
     padding: 0; }
   header .ad {
     display: block; }
@@ -2356,10 +2359,14 @@ input[type="submit"] {
       margin: 15px 0 0 80px; }
   #banner {
     margin: 0 0 15px 0;
-    padding: 80px 185px 0 50px !important;
+    padding: 80px 0 0 50px !important;
     height: 355px; }
     #banner h1 {
       font-size: 2.8em; }
+    #banner p {
+      width: 24em; }
+    #banner a {
+      margin: 1.3em 195px 0 0; }
   main {
     min-height: 425px !important; }
   aside .row {
