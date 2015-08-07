@@ -263,7 +263,7 @@ $TARGET_EMAIL = array("^uc3@ucop\.edu$");
 
             /* Help: http://www.tectite.com/fmdoc/def_alert.php */
 
-define("DEF_ALERT","joel.hagedorn@ucop.edu");
+define("DEF_ALERT","uc3@ucop.edu");
 
             /* Help: http://www.tectite.com/fmdoc/site_domain.php */
 $SITE_DOMAIN = "";           // your website domain name
@@ -478,7 +478,7 @@ $FILTER_ATTRIBS = array("encode"=>"Strips,MIME=application/vnd.fmencoded,Encrypt
                         "csv"=>"Strips,MIME=text/csv",);
 
             /* Help: http://www.tectite.com/fmdoc/check_for_new_version.php */
-define("CHECK_FOR_NEW_VERSION",true);
+define("CHECK_FOR_NEW_VERSION",false);
 define("CHECK_DAYS",30);
 
             /* Help: http://www.tectite.com/fmdoc/scratch_pad.php */
