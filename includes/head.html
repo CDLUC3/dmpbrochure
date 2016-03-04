@@ -5,6 +5,9 @@
 
     <script src="js/modernizr.custom.82585.js"></script>
 
+    <script src="js/links.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+
     <script>
     Modernizr.load([
       'js/vendor/jquery.js',
@@ -21,6 +24,17 @@
       'fancybox/source/jquery.fancybox.css'
       ]);
     }
+
+    $("a").each(function(idx){
+      var target = $(this).attr('href');
+      
+console.log('Looking for: ' + target);
+console.log('Found: ' + links[target]);
+
+      if(links.include(target)){
+        $(this).attr('href', links[target]);
+      }
+    })
     </script>
     
     <!--[if IE 8]>
