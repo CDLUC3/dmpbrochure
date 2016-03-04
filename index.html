@@ -68,6 +68,15 @@
     </div>
 
     <!--#include virtual="includes/footer.html" -->
+
+    <script>
+      // Replaces the environment specifc hyperlinks with the ones found in js/links.js
+      rewrites.forEach(function(rewrite){
+        $("a[href*=" + rewrite['marker'] + "]").each(function(idx, anchor){
+          $(anchor).attr('href', rewrite['target']);
+        });
+      });
+    </script>
     
   </body>
 </html>
