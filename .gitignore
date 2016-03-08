@@ -8,3 +8,6 @@
 
 # CodeKit configuration file #
 config.codekit
+
+# Prevent local customizations from being checked in
+shared/
